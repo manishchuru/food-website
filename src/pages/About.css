@@ -1,0 +1,100 @@
+.danger{
+    float:left;
+   margin: 20px;
+  margin-left: 40px;
+    background-color:grey;
+}
+.danger img{
+    width: 200px;
+    height: 300px;
+    
+ }
+ .mapbtn{
+    margin-bottom: 100px;
+    margin: 20px;
+    margin-left: 80px;
+    height: 1000px;
+    width: 80%;
+    background-color:black;
+} 
+.h1{
+    background-color:lightcoral;
+    height: 80px;
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 80px;
+    text-align: center;
+}
+ @media screen and (max-width:1500px){
+    .mapbtn{
+        margin-bottom: 100px;
+        height: 1000px;
+    } 
+ }
+ @media screen and (max-width:975px){
+    .mapbtn{
+        margin-bottom: 100px;
+        height: 1500px;
+    } 
+ }
+ 
+  @media screen and (max-width:780px){
+    .mapbtn{
+        margin-bottom: 100px;
+        height: 1500px;
+    } 
+ } 
+ @media screen and (max-width:650px){
+    .mapbtn{
+        margin-bottom: 100px;
+        height: 2300px;
+    } 
+ } 
+ @media screen and (max-width:700px){
+    .h1{
+        background-color:green;
+        height: 80px;
+        margin-top: 10px;
+        width: 80%;
+        margin-left: 50px;
+        text-align: center;
+    }
+    .mapbtn{
+        margin-bottom: 100px;
+        margin: 10px;
+        margin-left: 50px;
+    } 
+ }
+ @media screen and (max-width:600px){
+    .mapbtn{
+        margin-bottom: 100px;
+        height: 2500px;
+    } 
+ } 
+
+ .search{
+   height: 30px;
+   width: 250px;
+   float: right;
+ }
+
+ @media screen and (max-width:340px){
+    .h1{
+        background-color: lightyellow;
+        height: 80px;
+        margin-top: 10px;
+        width: 70%;
+      
+        text-align: center;
+    }
+    .danger img{
+        width: 160px;
+        height: 300px;
+        
+     }
+    .mapbtn{
+        margin-bottom: 100px;
+        margin: 10px;
+        margin-left: 30px;
+    } 
+ }
